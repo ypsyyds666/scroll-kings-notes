@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/scroll-kings-notes/sw.js', { scope: '/scroll-kings-notes/' })})}
